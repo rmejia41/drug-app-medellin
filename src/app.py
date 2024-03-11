@@ -4,6 +4,7 @@ from dash import html, dcc, dash_table, Input, Output
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
+import openpyxl
 
 # Load the dataset
 data_path = 'https://github.com/rmejia41/open_datasets/raw/main/intoxicacion_medellin_final.xlsx'
